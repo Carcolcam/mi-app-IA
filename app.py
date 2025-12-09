@@ -39,7 +39,7 @@ if prompt := st.chat_input("Escribe tu mensaje..."):
         # ----------------------------------
         
         model = genai.GenerativeModel(
-            model_name='gemini-1.5-flash', # Modelo rápido para móviles
+            model_name='gemini-2.5-flash', # ¡NUEVO NOMBRE DE MODELO!
             system_instruction=instrucciones
         )
         
